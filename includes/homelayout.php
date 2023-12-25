@@ -10,8 +10,6 @@ $sidebarLinks = [
 ];
 ?>
 
-
-
 <div class='container'>
  <div class='row home_desktop'>
     <div class='col-3 fixed-sidebar'>
@@ -29,8 +27,14 @@ $sidebarLinks = [
      </div>
     </div>
 
-    <div class='col home_contents'>
-
+    <div class='col-9 home_contents px-4'>
+    <?php
+    include '../includes/featuredhomemovie.php';
+    include '../includes/homemoviescarousel.php';
+    include '../includes/recommendedmovies.php';
+    include '../includes/upcomingmovies.php';
+    include '../includes/latesttrailers.php';
+    ?>
     </div>
  </div>
 </div>
@@ -38,7 +42,6 @@ $sidebarLinks = [
 
 <style>
     .home_desktop {
-        height : 1500px;
         border :1px solid #dddddd;
         boder-top : none;
         background-color : white;
@@ -82,7 +85,7 @@ $sidebarLinks = [
     }
 
     .home_desktop .fixed-sidebar .owner a p {
-        font-size : 13px;
+        font-size : 12px;
         color : #AAAAAA;
         margin : unset;
     }
@@ -100,7 +103,7 @@ $sidebarLinks = [
         gap:10px;
         text-decoration : none;
         color : grey;
-        font-size : 16px;
+        font-size : 14px;
     }
     .home_desktop .fixed-sidebar ul li a:hover {
         color : #000;

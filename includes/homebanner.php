@@ -3,7 +3,10 @@
         <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <a href='https://deals.mu/' target='_blank' class="carousel-item">
-                    <img src="https://deals.mu/wp-content/themes/hassdev/assets/images/home_slider/en/0-a-0-giftcard-dealsmu-home-slide-desktop-u.jpg" class="d-block w-100" alt="...">
+                    <img src="https://cinema.mu/wp-content/uploads/banner_ads/deals-banner-2023.jpg" class="d-block w-100" alt="...">
+                </a>
+                <a href='https://otayo.com/' target='_blank' class="carousel-item">
+                    <img src="https://cinema.mu/wp-content/uploads/banner_ads/otayo-banner-2023.jpg" class="d-block w-100" alt="...">
                 </a>
                 <a href='https://www.ticketbox.mu/' target='_blank' class="carousel-item active">
                     <img src="https://api.ticketbox.mu/v2/image/production/findustribeca-1701857342712.webp" class="d-block w-100" alt="...">
@@ -32,7 +35,9 @@
         }
 
         .hme_header_banner_ads .carousel-item img{
-            border-radius : 10px;
+            border-radius : 10px 10px 0px 0;
+            height: 100%;
+            object-fit: cover;
         }
 
         .hme_header_banner_ads .ads_tag {
