@@ -1,4 +1,4 @@
-<div class='container hme_header_banner_ads'>
+<section class='container hme_header_banner_ads'>
     <div class='row position-relative'>
         <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -18,11 +18,11 @@
             <p>Sponsored</p>
         </div>
     </div>
-</div>
+</section>
     
     <style>
         .hme_header_banner_ads {
-            padding-top : 70px;
+            padding-top :85px;
             border-radius : 10px;
             /* margin-top : 30px; */
         }

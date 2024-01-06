@@ -70,7 +70,7 @@ $html = "
 </style>
 <script>
     var swiper = new Swiper(".recmovies_carousel", {
-        slidesPerView: 3,
+        slidesPerView: 4,
         spaceBetween: 25,
         autoplay: {
             delay: 3000,

@@ -1,5 +1,5 @@
 
-<div class='upmovies'>
+<section class='upmovies'>
     <?php
     heading('Upcoming movies' , 'upcom' ,'black')
     ?>
@@ -69,7 +69,7 @@
                 </a>
         </div>
     </div>
-</div>
+</section>
 
 
 <style>
