@@ -25,6 +25,14 @@ $sidebarLinks = [
             <p>Abhishek Beegun 2023</p>
         </a>
      </div>
+
+
+     <div class='sidebar_ads'>
+        <img src='https://api.ticketbox.mu/v2/image/production/1080x1920bunhaymean-1701386470564.webp' class='img-fluid'/>
+        <div class='ads_tag badge rounded-pill text-bg-light'>
+            <p>Sponsored</p>
+        </div>
+     </div>
     </div>
 
     <div class='col-9 home_contents px-4'>
@@ -53,8 +61,8 @@ $sidebarLinks = [
         position: -ms-sticky;
         position: -o-sticky;
         position: sticky;
-        padding: 30px 0;
-        height : 400px;
+        padding: 40px 0;
+        height : 600px;
         color: #000;
         top: 50px;
         bottom: auto;
@@ -89,6 +97,30 @@ $sidebarLinks = [
         color : #AAAAAA;
         margin : unset;
     }
+    .home_desktop .fixed-sidebar .sidebar_ads {
+        width :100%;
+        height : 250px;
+        position:relative;
+    }
+    .home_desktop .fixed-sidebar .sidebar_ads img {
+        width :100%;
+        height : 100%;
+        object-fit : cover;
+    }
+
+    .home_desktop .fixed-sidebar .sidebar_ads .ads_tag {
+            position : absolute;
+            top :10px;
+            left : 20px;
+            width:100px;
+            height : 25px;
+        }
+    .home_desktop .fixed-sidebar .sidebar_ads .ads_tag p{
+            margin : unset;
+            margin-top : 2px;
+        }
+
+
 
     .home_desktop .fixed-sidebar ul {
         list-style-type: none;

@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    # Rewrite /user/123 to /user.php?id=123
+    RewriteRule ^user/([^/]+)/?$ user.php?id=$1 [L,QSA]
+
+    RewriteRule ^film/([^/]+)/?$ film.php?id=$1 [L,QSA]
+
+
+    # Other rules for your existing routes
+    RewriteRule ^about/?$ about.php [L,QSA]
+    RewriteRule ^contact/?$ contact.php [L,QSA]
+    RewriteRule ^/?$ index.php [L,QSA]
+</IfModule>

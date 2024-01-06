@@ -34,7 +34,7 @@ $html = "
     </a>
 ";
 ?>
-<div class='position-relative'>
+<section class='position-relative'>
     <?php
     heading('Movies tickets' , 'allmovies' ,'black')
     ?>
@@ -53,7 +53,7 @@ $html = "
             ?>
         </div>
     </div>
-</div>
+</section>
 
 <style>
     .hmemovies_carousel .swiper-wrapper .movie p {

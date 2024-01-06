@@ -10,7 +10,7 @@
             <p class='genre'>2023, Drama</p>
         </div>
 
-<!-- Modal -->
+        <!-- Modal -->
         <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -28,12 +28,15 @@
             </div>
         </div>
         </div>   
-<!-- modal end -->
+        <!-- modal end -->
 
     </div>
 </div>
 
 <style>
+    .latesttrailer {
+        padding-bottom : 15px
+    } 
     .latesttrailer .content .trailer img {
         background-color : red;
         height : 150px;
