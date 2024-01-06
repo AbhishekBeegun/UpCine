@@ -5,12 +5,12 @@
                 <a href='https://deals.mu/' target='_blank' class="carousel-item">
                     <img src="https://cinema.mu/wp-content/uploads/banner_ads/deals-banner-2023.jpg" class="d-block w-100" alt="...">
                 </a>
-                <a href='https://otayo.com/' target='_blank' class="carousel-item">
+                <a href='https://otayo.com/' target='_blank' class="carousel-item active">
                     <img src="https://cinema.mu/wp-content/uploads/banner_ads/otayo-banner-2023.jpg" class="d-block w-100" alt="...">
                 </a>
-                <a href='https://www.ticketbox.mu/' target='_blank' class="carousel-item active">
+                <!-- <a href='https://www.ticketbox.mu/' target='_blank' class="carousel-item ">
                     <img src="https://api.ticketbox.mu/v2/image/production/findustribeca-1701857342712.webp" class="d-block w-100" alt="...">
-                </a>
+                </a> -->
             </div>
         </div>
 
